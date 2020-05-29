@@ -1,2 +1,2 @@
-export declare function raw(...args: any[]): Node;
-export default function html(...args: any[]): string;
+export default function html(...args: any[]): Node;
+export declare function raw(...args: any[]): string;

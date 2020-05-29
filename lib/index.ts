@@ -1,12 +1,12 @@
-export function raw(...args: any[]) {
-  const txt = html(...args);
+export default function html(...args: any[]) {
+  const txt = raw(...args);
 
   const temp = document.createElement("template");
   temp.innerHTML = txt;
   return temp.content.cloneNode(true);
 }
 
-export default function html(...args: any[]) {
+export function raw(...args: any[]) {
   const [template, ...param] = args;
 
   let text = "";
