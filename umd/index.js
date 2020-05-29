@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):(e=e||self).css=n()}(this,function(){"use strict";return function(){for(var e=[],n=0;n<arguments.length;n++)e[n]=arguments[n];var t=e[0],f=e.slice(1),o="";return"string"==typeof t?o=t:t&&t.forEach(function(e,n){o+=e,f[n]&&(o+=f[n])}),o}});
+//# sourceMappingURL=index.js.map
